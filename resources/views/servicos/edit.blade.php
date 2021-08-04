@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    @include('_mendagens')
+    @include('_mensagens')
     <form action="{{ route('servicos.update', $servico) }}" method="post">
         @method('PUT')
 
